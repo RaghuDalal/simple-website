@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A Simple Website</title>
+  <meta name="keywords" content="html, web, css">
+  <meta name="description" content="This is a simple aggignment based on HTML/CSS">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/mystyle_reg.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link class="logo" rel="icon" type="image/png" href="img/pic.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/logo1.png" alt="logo" height="150px" class="logo">
+
+    </a>
+  </header>
+
+  <div class="topnav">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="login.html" style="float:right;color:black" class="btn_active">Login</a>
+    <a href="registration.html" style="float:right">Register</a>
+
+  </div>
+
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+      <h2 style="font-family:Ubuntu">Login</h2>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+      <form method="POST">
+        <div class="form-group">
+          <label for="username" style="font-family:Ubuntu">Email</label>
+          <input type="email" name="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password" style="font-family:Ubuntu">Password</label>
+          <input type="password" name="password" class="form-control" id="password">
+        </div>
+        <button type="submit" class="btn btn-primary" style="font-family:Ubuntu">Login</button>
+      </form>
+      <hr>
+      <div class="text-center">
+        Need an account? <a href="registration.html" style="font-family:Ubuntu">Sign Up here</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <p>&copy; Simple WebSite | <a href="https://google.com/" target="_blank" rel="nofollow">STORE</a></p>
+    <address>
+      Contact: <a href="mailto:raghvender@gmail.com">Mail me</a>
+    </address>
+
+  </footer>
+</body>
+
+</html>

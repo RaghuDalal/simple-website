@@ -1,0 +1,123 @@
+body {
+  font-family: "Ubuntu";
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  border: 2px solid red;
+  margin: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Ubuntu";
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.btn_active {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+h1.g_heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Ubuntu";
+  font-size: 50px;
+  text-align: center;
+}
+
+div.gallery {
+  border: 2px solid black;
+  margin: 25px;
+  max-width: 100%;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery:hover {
+  border: 3px solid red;
+}
+
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-family: "Ubuntu";
+  padding: 15px;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Ubuntu";
+}

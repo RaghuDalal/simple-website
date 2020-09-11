@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A Simple Website</title>
+  <meta name="keywords" content="html, web, css">
+  <meta name="description" content="This is a simple aggignment based on HTML/CSS">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/mystyle_reg.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link class="logo" rel="icon" type="image/png" href="img/pic.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/logo1.png" alt="logo" height="150px" class="logo">
+
+    </a>
+  </header>
+
+  <div class="topnav">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="login.html" style="float:right">Login</a>
+    <a href="registration.html" style="float:right;color:black" class="btn_active">Register</a>
+
+  </div>
+
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+      <h2 style="font-family:Ubuntu">Registration Page</h2>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+
+      <form method="POST">
+        <div class="form-group">
+          <label for="amount" style="font-family:Ubuntu">Name</label>
+          <input type="text" name="name" class="form-control" id="name" aria-describedby="usernameHelp">
+          <small id="usernameHelp" class="form-text text-muted" style="font-family:Ubuntu">Please enter your full name</small>
+        </div>
+
+
+        <div class="form-group">
+          <label for="Phone_Number" style="font-family:Ubuntu">Contact Number :</label>
+          <input id="Phone_Number_number" type="tel" inputmode="numeric" pattern="[0-9\s]{10}" autocomplete="ph-number" maxlength="10" placeholder="+91-xxx-xxx-xxxx">
+        </div>
+
+        <div class="form-group">
+          <label for="month" style="font-family:Ubuntu">Date of Birth</label>
+          <input type="date" name="dob" class="form-control" id="dob">
+        </div>
+
+        <div class="form-group">
+          <label for="month" style="font-family:Ubuntu">Date of Joining</label>
+          <input type="date" name="doj" class="form-control" id="doj">
+        </div>
+
+        <div class="form-group">
+          <label for="amount" style="font-family:Ubuntu">Address</label>
+          <input type="text" name="address" class="form-control" id="address" aria-describedby="usernameHelp">
+          <small id="usernameHelp" class="form-text text-muted" style="font-family:Ubuntu">Please enter your address</small>
+        </div>
+
+        <div class="form-group">
+          <label for="city" style="font-family:Ubuntu">City</label>
+          <input type="text" name="city" class="form-control" id="city" aria-describedby="usernameHelp">
+          <small id="usernameHelp" class="form-text text-muted" style="font-family:Ubuntu">Please enter your city</small>
+        </div>
+
+
+        <div class="form-group">
+          <label for="email" style="font-family:Ubuntu">Email</label>
+          <input type="email" name="email" class="form-control" id="email" aria-describedby="usernameHelp">
+          <small id="usernameHelp" class="form-text text-muted" style="font-family:Ubuntu">Please enter your email address</small>
+        </div>
+
+
+
+        <div class="form-group">
+          <label for="password1" style="font-family:Ubuntu">Password</label>
+          <input type="password" name="password1" class="form-control" id="password1">
+        </div>
+        <div class="form-group">
+          <label for="password2" style="font-family:Ubuntu">Confirm Password</label>
+          <input type="password" name="password2" class="form-control" id="password2">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" style="font-family:Ubuntu">Register Now</button>
+      </form>
+      <hr>
+      <div class="text-center" style="font-family:Ubuntu">
+        Already registered? <a href="login.html" style="font-family:Ubuntu">Login here</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; Simple WebSite | <a href="https://google.com/" target="_blank" rel="nofollow">STORE</a></p>
+    <address>
+      Contact: <a href="mailto:raghvender@gmail.com">Mail me</a>
+    </address>
+
+  </footer>
+</body>
+
+</html>
